@@ -1,0 +1,17 @@
+import heapq
+import math
+
+class Solution:
+    def pickGifts(self, gifts: List[int], k: int) -> int:
+        pq = []
+        for gift in gifts:
+            heapq.heappush(pq, (-gift))
+        
+        for i in range(k):
+            high = -1 * heapq.heappop(pq)
+            high = math.floor(math.sqrt(high))
+            heapq.heappush(pq, (-1 * high))
+        
+
+        return -1 * sum(pq)
+        
