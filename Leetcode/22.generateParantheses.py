@@ -1,0 +1,15 @@
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
+        res = []
+
+        def backtrack(l, r, current):
+            if len(current) == 2 * n:
+                res.append(current)
+                return
+            if l < n:
+                backtrack(l + 1, r, current + "(")
+            if r < l:
+                backtrack(l, r + 1, current + ")")
+
+        backtrack(0, 0, "")
+        return res
