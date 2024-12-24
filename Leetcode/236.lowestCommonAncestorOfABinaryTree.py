@@ -1,23 +1,22 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+# Definition for a binary tree node.
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 
 class Solution:
-    def getIntersectionNode(
-        self, headA: ListNode, headB: ListNode
-    ) -> Optional[ListNode]:
-        f, s = headA, headB
-        while f and s:
-            if f == s:
-                return f
-            f = f.next
-            s = s.next
+    def lowestCommonAncestor(
+        self, root: "TreeNode", p: "TreeNode", q: "TreeNode"
+    ) -> "TreeNode":
+        if not root or root == p or root == q:
+            return root
 
-        while f != s:
-            f = f.next if f else headB
-            s = s.next if s else headA
+        left = self.lowestCommonAncestor(root.left, p, q)
+        right = self.lowestCommonAncestor(root.right, p, q)
 
-        return f
+        if left and right:
+            return root
+
+        return left if left else right
