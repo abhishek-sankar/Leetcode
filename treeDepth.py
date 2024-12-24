@@ -38,3 +38,4 @@ for node in graph.graph_dict:
 
 min_diameter = min(diameters, key=lambda x: x[1])
 min_nodes = [node for node in diameters if node[1] == min_diameter]
+print(min_nodes)
