@@ -25,7 +25,7 @@ class Graph:
             if neighbour not in visited:
                 depths.append(self.findMaxDepthFromNode(neighbour, depth + 1, visited))
 
-        return max(depths)
+        return max(depths) if len(depths) > 0 else depth
 
 
 graph = Graph([(0, 1), (0, 2), (1, 3), (1, 4), (2, 5), (2, 6)])
