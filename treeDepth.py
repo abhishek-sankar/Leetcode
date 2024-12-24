@@ -31,6 +31,8 @@ class Graph:
 graph = Graph([(0, 1), (0, 2), (1, 3), (1, 4), (2, 5), (2, 6)])
 visited = set()
 # graph.dfs(0, visited)
+diameters = []
 for node in graph.graph_dict:
     visited.clear()
-    print(graph.findMaxDepthFromNode(node, 0, visited))
+    diameters.append(graph.findMaxDepthFromNode(node, 0, visited))
+print(min(diameters))
