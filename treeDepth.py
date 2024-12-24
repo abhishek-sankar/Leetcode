@@ -7,8 +7,8 @@ class Graph:
                 self.graph_dict[start] = []
             if end not in self.graph_dict:
                 self.graph_dict[end] = []
-            self.graph_dict[start] = [end]
-            self.graph_dict[end] = [start]
+            self.graph_dict[start].append(end)
+            self.graph_dict[end].append(start)
 
     def dfs(self, start, visited):
         print(start)
