@@ -35,3 +35,6 @@ diameters = []
 for node in graph.graph_dict:
     visited.clear()
     diameters.append((node, graph.findMaxDepthFromNode(node, 0, visited)))
+
+min_diameter = min(diameters, key=lambda x: x[1])
+min_nodes = [node for node in diameters if node[1] == min_diameter]
