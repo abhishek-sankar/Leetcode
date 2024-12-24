@@ -17,13 +17,7 @@ class Solution:
             s = s.next
 
         while f != s:
-            if f is None:
-                f = headB
-            if s is None:
-                s = headA
-            if f == s:
-                return f
-            f = f.next
-            s = s.next
+            f = f.next if f else headB
+            s = s.next if s else headA
 
         return f
