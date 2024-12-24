@@ -33,4 +33,4 @@ visited = set()
 # graph.dfs(0, visited)
 for node in graph.graph_dict:
     visited.clear()
-    print(graph.findMaxDepthFromNode(0, 0, visited))
+    print(graph.findMaxDepthFromNode(node, 0, visited))
