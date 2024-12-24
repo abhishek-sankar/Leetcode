@@ -1,3 +1,8 @@
+class Node:
+    def __init__(self, value):
+        self.value = value
+
+
 class Graph:
     def __init__(self, edges):
         self.edges = edges
@@ -9,3 +14,10 @@ class Graph:
                 self.graph_dict[end] = []
             self.graph_dict[start] = [end]
             self.graph_dict[end] = [start]
+
+    def dfs(self, start, visited):
+        print(start.value)
+        visited.add(start)
+        for neighbour in self.graph_dict[start]:
+            if neighbour not in visited:
+                self.dfs(neighbour, visited)
