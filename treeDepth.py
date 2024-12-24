@@ -10,7 +10,7 @@ class Graph:
             self.graph_dict[start] = [end]
             self.graph_dict[end] = [start]
 
-    def dfs(self, start, visited):
+    def dfs(self, start):
         print(start)
         visited.add(start)
         for neighbour in self.graph_dict[start]:
@@ -19,4 +19,5 @@ class Graph:
 
 
 graph = Graph([(0, 1), (0, 2), (1, 3), (1, 4), (2, 5), (2, 6)])
-graph.dfs(0, set())
+visited = set()
+graph.dfs(0)
