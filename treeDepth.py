@@ -18,10 +18,18 @@ class Graph:
                 self.dfs(neighbour, visited)
 
     def findMaxDepthFromNode(self, node, depth, visited):
-        if len(adj[node]) == 0:
+        if len(self.graph_dict[node]) == 0:
             return depth
+        visited.add(node)
+        depths = []
+        for neighbour in self.graph_dict[node]:
+            if neighbour not in visited:
+                depths.append(self.findMaxDepthFromNode(neighbour, depth + 1, visited))
+
+        return max(depths)
 
 
 graph = Graph([(0, 1), (0, 2), (1, 3), (1, 4), (2, 5), (2, 6)])
 visited = set()
 graph.dfs(0, visited)
+graph.findMaxDepthFromNode(0, 0, visited)
