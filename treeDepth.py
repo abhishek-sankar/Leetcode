@@ -17,6 +17,10 @@ class Graph:
             if neighbour not in visited:
                 self.dfs(neighbour, visited)
 
+    def findMaxDepthFromNode(self, node, depth, visited):
+        if len(adj[node]) == 0:
+            return depth
+
 
 graph = Graph([(0, 1), (0, 2), (1, 3), (1, 4), (2, 5), (2, 6)])
 visited = set()
