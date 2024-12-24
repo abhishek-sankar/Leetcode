@@ -11,7 +11,6 @@ class Graph:
             self.graph_dict[end].append(start)
 
     def dfs(self, start, visited):
-        print(start)
         visited.add(start)
         for neighbour in self.graph_dict[start]:
             if neighbour not in visited:
