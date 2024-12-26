@@ -21,4 +21,3 @@ class Solution:
                 board.pop()
         backtrack([])
         return len(res)
-    
