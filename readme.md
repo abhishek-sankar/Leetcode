@@ -2,7 +2,7 @@
 
 ![Header Image](./diffusion_2.png)
 
-- This is a collection of competitive coding questions from [Exercism](https://exercism.io/), [HackerRank](https://hackerrank.com) and [InterviewBit](https://www.interviewbit.com/) and their solutions in C++.
+- This is a collection of competitive coding questions from [Leetcode](https://leetcode.io/), [Exercism](https://exercism.io/), [HackerRank](https://hackerrank.com) and [InterviewBit](https://www.interviewbit.com/) and their solutions in C++.
 - As of now, the repo consists of the following sections. Each section will have a readme with links to everything within it.
   - [Leetcode Solutions](./Leetcode/readme.md)
   - [Exercism Solutions](./Exercism/readme.md)
