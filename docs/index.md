@@ -4,7 +4,7 @@
 
 - This is a collection of competitive coding questions from [Exercism](https://exercism.io/), [HackerRank](https://hackerrank.com) and [InterviewBit](https://www.interviewbit.com/) and their solutions in C++.
 - As of now, the repo consists of the following sections. Each section will have a readme with links to everything within it.
-  - [Leetcode Solutions](./Leetcode/readme.md)
+  - [Leetcode Solutions](../Leetcode/readme.md)
   - [Exercism Solutions](./Exercism/readme.md)
   - [HackerRank Solutions](./HackerRank/readme.md)
   - [InterviewBit Solutions](./Interviewbit/Readme.md)
