@@ -90,6 +90,7 @@
 - [39. Combination Sum](../docs/Leetcode/39.combinationSum.md)
 - [40. Combination Sum 2](../docs/Leetcode/40.combinationSum2.md)
 - [51. N Queens](../docs/Leetcode/51.nQueens.md)
+- [52. N Queens II ](../docs/Leetcode/52.nQueens2.md)
 - [212. Word Search 2](../docs/Leetcode/212.wordSearch2.md)
 
 ## Two Pointers and Sliding Window
