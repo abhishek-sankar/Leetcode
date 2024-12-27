@@ -1,6 +1,4 @@
 def isMatch(s: str, p: str) -> bool:
-    flag = False
-
     def dfs(si, pi):
         print(si, pi)
         if si >= len(s) and pi >= len(p):
@@ -31,6 +29,7 @@ def isMatch(s: str, p: str) -> bool:
                     flag = True
                 return
 
+    flag = False
     dfs(0, 0)
     return flag
 
