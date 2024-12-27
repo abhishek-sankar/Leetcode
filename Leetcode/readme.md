@@ -48,6 +48,7 @@
 - [300. Longest Increasing Subsequence](../docs/Leetcode/300.longestIncreasingSubsequence.md)
 - [322. Coin Change](../docs/Leetcode/322.coinChange.md)
 - [494. Target Sum](../docs/Leetcode/494.targetSum.md)
+- [1014. Best Sightseeing Pair](../docs/Leetcode/1014.bestSightseeingPair.md)
 - [1143. Longest Common Subsequence](../docs/Leetcode/1143.longestCommonSubsequence.md)
 
 ## Tree and Graph Problems
