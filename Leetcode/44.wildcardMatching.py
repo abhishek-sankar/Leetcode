@@ -1,8 +1,10 @@
 def isMatch(s: str, p: str) -> bool:
+    flag = [False]
+
     def dfs(si, pi):
         print(si, pi)
         if si >= len(s) and pi >= len(p):
-            flag = True
+            flag[0] = True
             return
         if pi >= len(p):
             return
@@ -18,7 +20,7 @@ def isMatch(s: str, p: str) -> bool:
                 else:
                     dfs(si + 1, pi)
             elif pi == len(p) - 1:
-                flag = True
+                flag[0] = True
                 return
             else:
                 key = True
@@ -26,10 +28,9 @@ def isMatch(s: str, p: str) -> bool:
                     if p[j] != "*":
                         key = False
                 if key:
-                    flag = True
+                    flag[0] = True
                 return
 
-    flag = False
     dfs(0, 0)
     return flag
 
