@@ -47,6 +47,7 @@
 - [213. House Robber 2](../docs/Leetcode/213.houseRobber2.md)
 - [300. Longest Increasing Subsequence](../docs/Leetcode/300.longestIncreasingSubsequence.md)
 - [322. Coin Change](../docs/Leetcode/322.coinChange.md)
+- [494. Target Sum](../docs/Leetcode/494.targetSum.md)
 - [1143. Longest Common Subsequence](../docs/Leetcode/1143.longestCommonSubsequence.md)
 
 ## Tree and Graph Problems
