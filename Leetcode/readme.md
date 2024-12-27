@@ -33,6 +33,7 @@
 
 ## Dynamic Programming
 
+- [44. Wildcard Matching](../docs/Leetcode/44.wildcardMatching.md)
 - [62. Unique Paths](../docs/Leetcode/62.uniquePaths.md)
 - [70. Climbing Stairs](../docs/Leetcode/70.climbingStairs.md)
 - [91. Decode Ways](../docs/Leetcode/91.decodeWays.md)
