@@ -1,4 +1,4 @@
-def isMatch(self, s: str, p: str) -> bool:
+def isMatch(s: str, p: str) -> bool:
     flag = False
 
     def dfs(si, pi):
