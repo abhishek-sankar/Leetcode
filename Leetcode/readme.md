@@ -37,6 +37,7 @@
 - [44. Wildcard Matching](../docs/Leetcode/44.wildcardMatching.md)
 - [46. Permutations](../docs/Leetcode/46.permutations.md)
 - [47. Permutations](../docs/Leetcode/47.permutations2.md)
+- [50. Pow(x, n)](../docs/Leetcode/50.powxn.md)
 - [62. Unique Paths](../docs/Leetcode/62.uniquePaths.md)
 - [70. Climbing Stairs](../docs/Leetcode/70.climbingStairs.md)
 - [91. Decode Ways](../docs/Leetcode/91.decodeWays.md)
