@@ -35,4 +35,4 @@ def isMatch(s: str, p: str) -> bool:
     return flag
 
 
-isMatch("aa", "*")
+print(isMatch("aa", "*"))
