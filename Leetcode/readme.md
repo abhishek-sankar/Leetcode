@@ -9,7 +9,7 @@
 - [26. Remove Duplicates from Sorted Array](../docs/Leetcode/26.removeDuplicatesFromSortedArray.md)
 - [28. Find Index of First Occurence in String](../docs/Leetcode/28.findIndexOfFirstOccurenceInString.md)
 - [31. Next Permutation](../docs/Leetcode/31.nextPermutation.md)
-- [31. Next Permutation](../docs/Leetcode/43.multiplyStrings.md)
+- [43. Multiply Strings](../docs/Leetcode/43.multiplyStrings.md)
 - [58. Length of Last Word](../docs/Leetcode/58.lengthOfLastWord.md)
 - [80. Remove Duplicates from Array](../docs/Leetcode/80.removeDuplicatesFromArray.md)
 - [88. Merge Sorted Array](../docs/Leetcode/88.mergeSortedArray.md)
