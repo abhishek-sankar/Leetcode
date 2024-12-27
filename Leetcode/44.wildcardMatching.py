@@ -1,38 +1,18 @@
-def isMatch(s: str, p: str) -> bool:
-    flag = [False]
+class Solution:
+    def isMatch(self, s: str, p: str) -> bool:
+        n, m = len(s), len(p)
+        dp = [[False for _ in range(m + 1)] for _ in range(n + 1)]
+        dp[0][0] = True
 
-    def dfs(si, pi):
-        print(si, pi)
-        if si >= len(s) and pi >= len(p):
-            flag[0] = True
-            return
-        if pi >= len(p):
-            return
+        for j in range(1, m + 1):
+            if p[j - 1] == "*":
+                dp[0][j] = dp[0][j - 1]
 
-        if s[si] == p[pi]:
-            dfs(si + 1, pi + 1)
-        elif p[pi] == "?":
-            dfs(si + 1, pi + 1)
-        elif p[pi] == "*":
-            if pi + 1 < len(p) and si + 1 < len(s):
-                if s[si + 1] == p[pi + 1]:
-                    dfs(si + 1, pi + 1)
-                else:
-                    dfs(si + 1, pi)
-            elif pi == len(p) - 1:
-                flag[0] = True
-                return
-            else:
-                key = True
-                for j in range(pi, len(p)):
-                    if p[j] != "*":
-                        key = False
-                if key:
-                    flag[0] = True
-                return
+        for i in range(1, n + 1):
+            for j in range(1, m + 1):
+                if p[j - 1] == "*":
+                    dp[i][j] = dp[i - 1][j] or dp[i][j - 1]
+                elif s[i - 1] == p[j - 1] or p[j - 1] == "?":
+                    dp[i][j] = dp[i - 1][j - 1]
 
-    dfs(0, 0)
-    return flag
-
-
-print(isMatch("aa", "*"))
+        return dp[n][m]
