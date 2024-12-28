@@ -55,11 +55,13 @@
 
 ## Tree and Graph Problems
 
+- [94. Binary Tree Inorder Traversal](../docs/Leetcode/94.binaryTreeInorderTraversal.md)
 - [102. Binary Tree Level Order Traversal](../docs/Leetcode/102.binaryTreeLevelOrderTraversal.md)
 - [105. Construct Binary Tree from Pre and Inorder](../docs/Leetcode/105.constructBinaryTreeFromPreAndInorder.md)
 - [108. Convert Array to BST](../docs/Leetcode/108.convertArrayToBST.md)
 - [130. Surrounded Regions](../docs/Leetcode/130.surroundedRegions.md)
 - [124. Binary Tree Max Path Sum](../docs/Leetcode/124.binaryTreeMaxPathSum.md)
+- [129. Sum Root To Leaf Numbers](../docs/Leetcode/129.sumRootToLeafNumbers.md)
 - [133. Clone Graph](../docs/Leetcode/133.cloneGraph.md)
 - [200. Number of Islands](../docs/Leetcode/200.numberOfIslands.md)
 - [207. Course Schedule](../docs/Leetcode/207.courseSchedule.md)
@@ -79,6 +81,7 @@
 - [24. Swap Nodes in Pairs](../docs/Leetcode/24.swapNodesInPairs.md)
 - [25. Reverse Nodes in K Groups](../docs/Leetcode/25.reverseNodesInKGroups.md)
 - [61. Rotate List](../docs/Leetcode/61.rotateList.md)
+- [92. Reverse Linked List2](../docs/Leetcode/92.reverseLinkedList2.md)
 - [142. Linked List Cycle](../docs/Leetcode/142.linkedListCycle.md)
 - [143. Reorder List](../docs/Leetcode/143.reorderList.md)
 - [160. Intersection of Two Linked Lists](../docs/Leetcode/160.intersectionOfTwoLinkedLists.md)
@@ -104,6 +107,7 @@
 - [40. Combination Sum 2](../docs/Leetcode/40.combinationSum2.md)
 - [51. N Queens](../docs/Leetcode/51.nQueens.md)
 - [52. N Queens II ](../docs/Leetcode/52.nQueens2.md)
+- [93. Restore Ip Addresses](../docs/Leetcode/93.restoreIpAddresses.md)
 - [212. Word Search 2](../docs/Leetcode/212.wordSearch2.md)
 
 ## Two Pointers and Sliding Window
@@ -142,6 +146,9 @@
 - [42. Trapping Rain Water](../docs/Leetcode/42.trappingRainWater.md)
 - [45. Jump Game 2](../docs/Leetcode/45.jumpGame2.md)
 - [55. Jump Game](../docs/Leetcode/55.jumpGame.md)
+- [118. Pascals Triangle](../docs/Leetcode/118.pascalsTriangle.md)
+- [119. Pascals Triangle2](../docs/Leetcode/119.pascalsTriangle2.md)
+- [120. Triangle](../docs/Leetcode/120.triangle.md)
 - [122. Best Time to Buy and Sell Stock 2](../docs/Leetcode/122.bestTimeToBuyAndSellStock2.md)
 
 ## Miscellaneous
