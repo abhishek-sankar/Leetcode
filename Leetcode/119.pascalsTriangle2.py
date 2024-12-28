@@ -9,6 +9,9 @@ class Solution:
                 for i in range(len(prevRow) - 1):
                     res.append(prevRow[i] + prevRow[i + 1])
                 res.append(1)
+                cache[index] = res
+                return cache[index]
 
         cache = {0: [1], 1: [1, 1]}
+
         return getPascalRow(rowIndex)
