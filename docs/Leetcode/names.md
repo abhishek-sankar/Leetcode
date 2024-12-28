@@ -1,3 +1,4 @@
+```python
 # Bash to get all file names
 # python3 -c "import os; print(sorted(os.listdir('.'), key=lambda x: int(x.split('.')[0]) if x.split('.')[0].isdigit() else float('inf')))"
 
@@ -64,3 +65,5 @@ for py_file in sorted_files:
                 expected_line = f"- [{numeric_part}. {formatted_description}](../docs/Leetcode/{file_name_without_ext}.md)"
                 with open(readme_path, "a") as readme_file:
                     readme_file.write(f"{expected_line}\n")
+
+```
