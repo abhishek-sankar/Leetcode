@@ -59,9 +59,8 @@ for py_file in sorted_files:
             )
 
             # Create the expected line in the readme
-            expected_line = f"- [{numeric_part}. {formatted_description}](../docs/Leetcode/{file_name_without_ext}.md)"
 
-            # If the expected line is not in the readme, append it
-            if expected_line not in readme_content:
+            if file_name_without_ext not in readme_content:
+                expected_line = f"- [{numeric_part}. {formatted_description}](../docs/Leetcode/{file_name_without_ext}.md)"
                 with open(readme_path, "a") as readme_file:
                     readme_file.write(f"{expected_line}\n")
