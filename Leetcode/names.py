@@ -43,7 +43,10 @@ for py_file in sorted_files:
         file_name_without_ext = py_file.replace(".py", "")
 
         # Extract the numeric part and the descriptive part of the file name
-        numeric_part, descriptive_part = file_name_without_ext.split(".", 1)
+        if file_name_without_ext not in ["names", "readme"]:
+            numeric_part, descriptive_part = file_name_without_ext.split(".", 1)
+        else:
+            numeric_part, descriptive_part = None, None
         # Format the descriptive part to have spaces and capitalize each word
         formatted_description = (
             "".join(
