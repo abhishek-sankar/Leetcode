@@ -33,3 +33,30 @@ for py_file in sorted_files:
         f.write("```python\n")
         f.write(content)
         f.write("\n```\n")
+
+        # Check if each file has a listing in readme.md
+        readme_path = "../Leetcode/readme.md"
+        with open(readme_path, "r") as readme_file:
+            readme_content = readme_file.read()
+
+        # Extract the file name without the extension
+        file_name_without_ext = py_file.replace(".py", "")
+
+        # Extract the numeric part and the descriptive part of the file name
+        numeric_part, descriptive_part = file_name_without_ext.split(".", 1)
+        # Format the descriptive part to have spaces and capitalize each word
+        formatted_description = (
+            "".join(
+                [" " + char if char.isupper() else char for char in descriptive_part]
+            )
+            .strip()
+            .title()
+        )
+
+        # Create the expected line in the readme
+        expected_line = f"- [{numeric_part}. {formatted_description}](../docs/Leetcode/{file_name_without_ext}.md)"
+
+        # If the expected line is not in the readme, append it
+        if expected_line not in readme_content:
+            with open(readme_path, "a") as readme_file:
+                readme_file.write(f"{expected_line}\n")
