@@ -2,11 +2,11 @@
 
 ## Array and String Manipulation
 
-- [3. Longest Substring Without Repeating Characters](../docs/Leetcode/3.longestSubstringWithoutRepeatingChars.md)
+- [3. Longest Substring Without Repeating Chars](../docs/Leetcode/3.longestSubstringWithoutRepeatingChars.md)
 - [5. Longest Palindromic Substring](../docs/Leetcode/5.longestPalindromicSubstring.md)
 - [6. Zigzag Conversion](../docs/Leetcode/6.zigzagConversion.md)
 - [14. Longest Common Prefix](../docs/Leetcode/14.longestCommonPrefix.md)
-- [26. Remove Duplicates from Sorted Array](../docs/Leetcode/26.removeDuplicatesFromSortedArray.md)
+- [26. Remove Duplicates From Sorted Array](../docs/Leetcode/26.removeDuplicatesFromSortedArray.md)
 - [28. Find Index of First Occurence in String](../docs/Leetcode/28.findIndexOfFirstOccurenceInString.md)
 - [31. Next Permutation](../docs/Leetcode/31.nextPermutation.md)
 - [43. Multiply Strings](../docs/Leetcode/43.multiplyStrings.md)
@@ -45,6 +45,7 @@
 - [152. Maximum Product Subarray](../docs/Leetcode/152.maximumProductSubarray.md)
 - [198. House Robber](../docs/Leetcode/198.houseRobber.md)
 - [213. House Robber 2](../docs/Leetcode/213.houseRobber2.md)
+- [221. Maximal Square](../docs/Leetcode/221.maximalSquare.md)
 - [300. Longest Increasing Subsequence](../docs/Leetcode/300.longestIncreasingSubsequence.md)
 - [322. Coin Change](../docs/Leetcode/322.coinChange.md)
 - [494. Target Sum](../docs/Leetcode/494.targetSum.md)
@@ -76,6 +77,7 @@
 - [23. Merge K Sorted Lists](../docs/Leetcode/23.mergeKSortedLists.md)
 - [24. Swap Nodes in Pairs](../docs/Leetcode/24.swapNodesInPairs.md)
 - [25. Reverse Nodes in K Groups](../docs/Leetcode/25.reverseNodesInKGroups.md)
+- [61. Rotate List](../docs/Leetcode/61.rotateList.md)
 - [142. Linked List Cycle](../docs/Leetcode/142.linkedListCycle.md)
 - [143. Reorder List](../docs/Leetcode/143.reorderList.md)
 - [160. Intersection of Two Linked Lists](../docs/Leetcode/160.intersectionOfTwoLinkedLists.md)
@@ -90,7 +92,7 @@
 
 ## Stack and Queue
 
-- [20. Valid Parentheses](../docs/Leetcode/20.validParantheses.md)
+- [20. Valid Parantheses](../docs/Leetcode/20.validParantheses.md)
 - [22. Generate Parentheses](../docs/Leetcode/22.generateParantheses.md)
 - [32. Longest Valid Parentheses](../docs/Leetcode/32.longestValidParantheses.md)
 - [71. Simplify Path](../docs/Leetcode/71.simplifyPath.md)
@@ -114,10 +116,12 @@
 ## Math and Numbers
 
 - [9. Palindrome Number](../docs/Leetcode/9.palindromeNumber.md)
-- [12. Integer to Roman](../docs/Leetcode/12.integerToRoman.md)
+- [12. Integer To Roman](../docs/Leetcode/12.integerToRoman.md)
 - [29. Divide Two Integers](../docs/Leetcode/29.divideTwoIntegers.md)
+- [36. Valid Sudoku](../docs/Leetcode/36.validSudoku.md)
 - [41. First Missing Positive](../docs/Leetcode/41.firstMissingPositive.md)
 - [2177. Consecutive Numbers Sum to Integer](../docs/Leetcode/2177.consecutiveNumsSumToInteger.md)
+- [17. Letter Combinations Of A Phone Number](../docs/Leetcode/17.letterCombinationsOfAPhoneNumber.md)
 
 ## Intervals
 
