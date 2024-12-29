@@ -1,3 +1,4 @@
+# names.py
 ```python
 # Bash to get all file names
 # python3 -c "import os; print(sorted(os.listdir('.'), key=lambda x: int(x.split('.')[0]) if x.split('.')[0].isdigit() else float('inf')))"
@@ -29,8 +30,9 @@ for py_file in sorted_files:
     # Create the corresponding markdown file path
     md_file_path = f"../docs/Leetcode/{py_file.replace('.py', '.md')}"
 
-    # Write the content to the markdown file with the specified format
+    # Write the filename at the top and then the content to the markdown file with the specified format
     with open(md_file_path, "w") as f:
+        f.write(f"# {py_file}\n")
         f.write("```python\n")
         f.write(content)
         f.write("\n```\n")

@@ -151,3 +151,6 @@
 - [2337. Move Pieces to Obtain String](../docs/Leetcode/2337.movePiecesToObtainString.md)
 - [2554. Maximum Number of Integers to Choose from a Range I](../docs/Leetcode/2554.maximumNumberOfIntegersToChooseFromARangeI.md)
 - [2558. Take Gifts from Richest Pile](../docs/Leetcode/2558.takeGiftsFromRichestPile.md)
+- [78. Subsets](../docs/Leetcode/78.subsets.md)
+- [89. Gray Code](../docs/Leetcode/89.grayCode.md)
+- [90. Subsets2](../docs/Leetcode/90.subsets2.md)
