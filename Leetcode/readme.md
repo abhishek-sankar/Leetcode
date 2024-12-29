@@ -154,3 +154,6 @@
 - [78. Subsets](../docs/Leetcode/78.subsets.md)
 - [89. Gray Code](../docs/Leetcode/89.grayCode.md)
 - [90. Subsets2](../docs/Leetcode/90.subsets2.md)
+- [37. Sudoku Solver](../docs/Leetcode/37.sudokuSolver.md)
+- [1639. Number Of Ways To Form A Target String From Word Dictionary](../docs/Leetcode/1639.numberOfWaysToFormATargetStringFromWordDictionary.md)
+- [1639. Number Of Ways To Form A Target String Given A Dictionary](../docs/Leetcode/1639.numberOfWaysToFormATargetStringGivenADictionary.md)
