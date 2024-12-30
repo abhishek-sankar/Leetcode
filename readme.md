@@ -20,23 +20,23 @@ As of now, the repo consists of the following sections. Each section will have a
 
 ### Core Data Structures & Algorithms
 
-- Array and String Manipulation
-- Binary Search and Sorted Arrays
-- Dynamic Programming
-- Tree and Graph Traversal
-- Linked List Operations
+- [Array and String Manipulation](./Leetcode/readme.md#array-and-string-manipulation)
+- [Binary Search and Sorted Arrays](./Leetcode/readme.md#binary-search-and-sorted-arrays)
+- [Dynamic Programming](./Leetcode/readme.md#dynamic-programming)
+- [Tree and Graph Problems](./Leetcode/readme.md#tree-and-graph-problems)
+- [Linked Lists](./Leetcode/readme.md#linked-lists)
 
 ### Advanced Topics
 
-- Two Pointers and Sliding Window
-- Backtracking and Recursion
-- Stack and Queue Implementation
-- Hash Tables and Set Operations
-- Interval Processing
+- [Two Pointers and Sliding Window](./Leetcode/readme.md#two-pointers-and-sliding-window)
+- [Backtracking](./Leetcode/readme.md#backtracking)
+- [Stack and Queue](./Leetcode/readme.md#stack-and-queue)
+- [Hash Tables and Sets](./Leetcode/readme.md#hash-tables-and-sets)
+- [Intervals](./Leetcode/readme.md#intervals)
 
 ## 🚀 Getting Started
 
-1. Browse problems by topic using our [categorized index](./topics.md)
+1. Browse problems by topic using our [categorized index](./Leetcode/readme.md)
 2. Each solution file includes:
    - Problem description and constraints
    - Solution approach explanation
