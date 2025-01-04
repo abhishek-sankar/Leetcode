@@ -4,7 +4,6 @@ class Solution:
         current_sum = 0
         heap = []
         pairs = sorted(zip(nums2, nums1), reverse=True)
-
         for i in range(k):
             mul, num = pairs[i]
             current_sum += num
