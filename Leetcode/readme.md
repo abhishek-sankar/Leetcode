@@ -195,3 +195,6 @@
 - [1137. Nth Tribonacci Number](../docs/Leetcode/1137.nthTribonacciNumber.md)
 - [2300. Successful Pairs Of Spells And Potions](../docs/Leetcode/2300.successfulPairsOfSpellsAndPotions.md)
 - [2462. Total Cost To Hire K Workers](../docs/Leetcode/2462.totalCostToHireKWorkers.md)
+- [1769. Minimum Number Of Operations To Move All Balls To Each Box](../docs/Leetcode/1769.minimumNumberOfOperationsToMoveAllBallsToEachBox.md)
+- [1930. Unique Length3 Palindrome Subsequences](../docs/Leetcode/1930.uniqueLength3PalindromeSubsequences.md)
+- [2381. Shifting Letters2](../docs/Leetcode/2381.shiftingLetters2.md)
